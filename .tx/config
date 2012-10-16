@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[contao-live-update.client]
+file_filter = translations/contao-live-update.client/<lang>.php
+source_lang = en
+
