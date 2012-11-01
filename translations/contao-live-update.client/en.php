@@ -65,5 +65,6 @@ return array(
 	'restoreNR'   => 'No restore required when upgrading',
 	'restoreNA'   => 'No matching backup file found',
 	'restoreOK'   => 'The database has been restored from %s',
-	'noTemplates' => 'There are no custom templates.'
+	'noTemplates' => 'There are no custom templates.',
+	'v3hint'      => 'You still have to run the version 3 update in the Contao install tool! <a href="../install.php" target="_blank">Open the install tool</a>'
 );
