@@ -2,9 +2,9 @@
 
 /**
  * Contao Live Update
- * 
+ *
  * Copyright (C) 2012 Leo Feyer
- * 
+ *
  * @package LiveUpdate
  * @link    http://www.inetrobots.com
  * @license Proprietary
@@ -42,6 +42,7 @@ return array(
 	'missingFile' => 'ファイルのリストがありません。新しいリクエストを開始してください。',
 	'missingZip'  => '更新のアーカイブがありません。新しいリクエストを開始してください。',
 	'step'        => 'ステップ',
+	'protocol'    => 'Live Update protocol',
 	'stats'       => '%s個の不足しているファイルと%s個の異なっているファイルを検出しました。',
 	'step_1'      => 'インストールするファイルを検査中',
 	'step_2'      => 'データベースのバックアップを作成中',
@@ -50,6 +51,10 @@ return array(
 	'step_5'      => 'データベースをバックアップから復元中',
 	'step_6'      => 'インストールするファイルを再検査中',
 	'step_7'      => 'カスタマイズしたテンプレートファイルを検査中',
+	'step_7_txt'  => 'カスタマイズしたテンプレートと、その元のバージョンの違いを表示します。',
+	'step_8'      => '無関係なファイル',
+	'step_8_txt'  => 'Contaoのコア配布に属さないファイルを表示します。',
+	'noUnrelated' => '無関係なファイルはありません。',
 	'downloaded'  => '正しくアーカイブをダウンロードしました。',
 	'extracted'   => '%s個のファイルを展開しました。',
 	'failed'      => 'インストールしたContaoをアップデート<b>できません</b>でした。インストールしているサーバーではContaoはセーフモード対処が必要ですが、正しく構成しましたか?',

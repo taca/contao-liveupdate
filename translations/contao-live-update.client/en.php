@@ -2,9 +2,9 @@
 
 /**
  * Contao Live Update
- * 
+ *
  * Copyright (C) 2012 Leo Feyer
- * 
+ *
  * @package LiveUpdate
  * @link    http://www.inetrobots.com
  * @license Proprietary
@@ -42,6 +42,7 @@ return array(
 	'missingFile' => 'The file list is missing. Please start a new request.',
 	'missingZip'  => 'The update archive is missing. Please start a new request.',
 	'step'        => 'Step',
+	'protocol'    => 'Live Update protocol',
 	'stats'       => 'Found %s missing and %s differing files.',
 	'step_1'      => 'Checking the installation files',
 	'step_2'      => 'Creating the database backup',
@@ -49,7 +50,11 @@ return array(
 	'step_4'      => 'Extracting the update archive',
 	'step_5'      => 'Restoring the database backup',
 	'step_6'      => 'Rechecking the installation files',
-	'step_7'      => 'Checking the custom template files',
+	'step_7'      => 'Custom template files',
+	'step_7_txt'  => 'Shows the difference between your customized templates and their original versions.',
+	'step_8'      => 'Unrelated files',
+	'step_8_txt'  => 'Shows a list of files which do not belong to the Contao core distribution.',
+	'noUnrelated' => 'No unrelated files found.',
 	'downloaded'  => 'The archive was successfully downloaded.',
 	'extracted'   => '%s files have been extracted.',
 	'failed'      => 'Your installation could <b>not</b> be updated. Does Contao require the Safe Mode Hack on your server and did you configure it correctly?',
